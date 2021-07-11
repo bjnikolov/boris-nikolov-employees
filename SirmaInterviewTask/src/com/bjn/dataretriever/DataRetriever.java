@@ -15,13 +15,9 @@ public class DataRetriever {
 	public void createFormats() {
 		DateTimeFormatter ddMMyyyy = DateTimeFormatter.ofPattern ("dd-MM-yyyy");
 		DateTimeFormatter yyyyMMdd = DateTimeFormatter.ofPattern ("yyyy-MM-dd");
-		DateTimeFormatter ddMMyy = DateTimeFormatter.ofPattern ("ddMMyy");
-		DateTimeFormatter ddMMMyyyy = DateTimeFormatter.ofPattern ("dd MMM yyyy");
 		DateTimeFormatter MMddyyyy = DateTimeFormatter.ofPattern ("MM-dd-yyyy");
 		formats.add (ddMMyyyy);		
 		formats.add (yyyyMMdd);
-		formats.add (ddMMyy);
-		formats.add (ddMMMyyyy);
 		formats.add (MMddyyyy);
 	}
 
